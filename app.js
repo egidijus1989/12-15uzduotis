@@ -35,6 +35,5 @@ function stringFormatter2(inputString) {
         .toLowerCase() +
       "-";
   }
-  console.log(start);
-  return start;
+  return start.substring(0, start.length - 1);
 }
